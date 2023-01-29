@@ -1,0 +1,6 @@
+Use MiddleBlock or get rid of it
+Make sections span entire width
+Change Intro section to ArticleHighlight section
+Fix footer spacing
+Create articles page
+Change styling when hovering over header tabs

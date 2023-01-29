@@ -1,0 +1,16 @@
+{
+  "title": "The Team",
+  "text": "Show members of the team",
+  "section": [
+    {
+      "title": "Joseph H Rock",
+      "content": "Head Guy",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Bender Robot",
+      "content": "Intern",
+      "icon": "notes.svg"
+    }
+  ]
+}
