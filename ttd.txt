@@ -1,13 +1,11 @@
-Change Intro section to be an ArticleHighlight section
-
-Fix media links spacing in footer
-
-Create articles page
-
 Change styling when hovering over header tabs
-
 See what site looks like on different displays
     - mobile
     - dynamic sizes
 
-Add button to Articles section to navigate to articles page
+Create logic for navigating to pages for articles
+Modify MiddleBlock so that it shows a "RecyclerView" of articles
+    - each article card should be clickable, have an image, title, subtitle
+
+---- After more work with D3 and webstie architecture has been done ----
+Change Intro section to be an ArticleHighlight section

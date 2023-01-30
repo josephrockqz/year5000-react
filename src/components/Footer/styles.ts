@@ -1,21 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const FooterSection = styled("footer")`
-  background: rgb(241, 242, 243);
-  padding: 2.5rem 0;
-`;
-
-export const Title = styled("h4")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #3452eb;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-  }
-`;
-
 export const NavLink = styled(Link)`
   display: block;
   font-size: 1rem;
@@ -43,60 +28,18 @@ export const LogoContainer = styled("div")`
   position: relative;
 `;
 
-export const Para = styled("div")`
-  color: #3452eb;
-  font-size: 14px;
-  width: 70%;
-`;
-
-export const Large = styled(Link)<any>`
-  font-size: 16px;
-  color: #000;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-transform: capitalize;
-  line-height: 24px;
-  display: block;
-  margin-bottom: 0.625rem;
-  transition: all 0.3s ease-in-out;
-  max-width: max-content;
-
-  &:hover {
-    color: rgb(255, 130, 92);
-    text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
-  }
-`;
-
-export const Chat = styled("p")`
-  color: #3452eb;
-  max-width: fit-content;
-  border-bottom: 1px solid #3452eb;
-  cursor: pointer;
-  margin-top: 1rem;
-  transition: all 0.3s ease-in-out;
-
-  &:hover {
-    border-bottom: 1px solid rgb(255, 130, 92);
-    color: rgb(255, 130, 92);
-  }
-`;
-
-export const Empty = styled("div")`
-  position: relative;
-  height: 53px;
-`;
-
 export const FooterContainer = styled("div")`
   max-width: 510px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
 
   a {
+    margin-left: 30px;
+
     &:hover,
     &:active,
     &:focus {
@@ -124,47 +67,4 @@ export const FooterContainer = styled("div")`
       fill: rgb(255, 130, 92);
     }
   }
-`;
-
-export const Language = styled("h4")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #3452eb;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-  }
-`;
-
-export const Label = styled("label")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #3452eb;
-  display: block;
-  margin-bottom: 2rem;
-  font-family: "Motiva Sans Bold", serif;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-    margin-bottom: 1rem;
-  }
-`;
-
-export const LanguageSwitch = styled("div")<any>`
-  cursor: pointer;
-  transition: all 0.1s ease-in-out;
-
-  &:hover,
-  &:active,
-  &:focus {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-`;
-
-export const LanguageSwitchContainer = styled("div")`
-  display: flex;
-  justify-content: space-between;
-  width: 85px;
 `;
