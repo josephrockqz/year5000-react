@@ -3,6 +3,7 @@ import IntroContent from "../../content/IntroContent.json";
 import TeamContent from "../../content/TeamContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ArticlesContent from "../../content/ArticlesContent.json";
+import MiddleBlock from "../../components/MiddleBlock";
 
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -16,14 +17,14 @@ const Home = () => {
         type="right"
         title={IntroContent.title}
         content={IntroContent.text}
-        icon=""
+        icon="intro.svg"
         id="intro"
       />
       <ContentBlock
-        type="left"
+        type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon=""
+        icon="mission.svg"
         id="mission"
       />
       <ContentBlock
@@ -31,15 +32,13 @@ const Home = () => {
         title={TeamContent.title}
         content={TeamContent.text}
         section={TeamContent.section}
-        icon=""
+        icon="team.svg"
         id="team"
       />
-      <ContentBlock
-        type="left"
+      <MiddleBlock
         title={ArticlesContent.title}
         content={ArticlesContent.text}
-        icon=""
-        id="articles"
+        button=""
       />
     </Container>
   );
