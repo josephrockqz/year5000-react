@@ -52,11 +52,11 @@ const Footer = () => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href=""
+                href="https://github.com/josephrockqz/year5000-react"
                 src="github.svg"
               />
               <SocialLink
-                href=""
+                href="https://www.linkedin.com/in/joseph-rock/"
                 src="linkedin.svg"
               />
             </FooterContainer>

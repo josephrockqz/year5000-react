@@ -1,4 +1,3 @@
-Change styling when hovering over header tabs
 See what site looks like on different displays
     - mobile
     - dynamic sizes
