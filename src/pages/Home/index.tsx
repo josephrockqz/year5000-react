@@ -3,7 +3,7 @@ import IntroContent from "../../content/IntroContent.json";
 import TeamContent from "../../content/TeamContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ArticlesContent from "../../content/ArticlesContent.json";
-import MiddleBlock from "../../components/MiddleBlock";
+import ArticlesBlock from "../../components/ArticlesBlock";
 
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -35,10 +35,8 @@ const Home = () => {
         icon="team.svg"
         id="team"
       />
-      <MiddleBlock
+      <ArticlesBlock
         title={ArticlesContent.title}
-        content={ArticlesContent.text}
-        button=""
       />
     </Container>
   );

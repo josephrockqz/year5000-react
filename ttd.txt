@@ -1,7 +1,3 @@
-See what site looks like on different displays
-    - mobile
-    - dynamic sizes
-
 Create logic for navigating to pages for articles
 Modify MiddleBlock so that it shows a "RecyclerView" of articles
     - each article card should be clickable, have an image, title, subtitle
