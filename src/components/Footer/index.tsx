@@ -32,10 +32,7 @@ const Footer = () => {
     );
   };
 
-  const currentLocation = useLocation();
-  console.log(currentLocation.pathname);
-
-  if (currentLocation.pathname == "/") {
+  if (useLocation().pathname == "/") {
     return (
       <>
         <Extra>

@@ -5,11 +5,12 @@ interface ArticleCardProps {
   title: string;
   subtitle: string;
   image: string;
+  url_title: string;
 }
 
-const ArticleCard = ({ title, subtitle, image }: ArticleCardProps) => {
+const ArticleCard = ({ title, subtitle, image, url_title }: ArticleCardProps) => {
   return (
-    <Link to="/article">
+    <Link to={"/article/" + url_title}>
       {title}
     </Link>
   );

@@ -1,4 +1,3 @@
-Create logic for navigating to pages for articles
 Modify MiddleBlock so that it shows a "RecyclerView" of articles
     - each article card should be clickable, have an image, title, subtitle
 Render Header conditionally so it's different when not on landing page to avoid errors

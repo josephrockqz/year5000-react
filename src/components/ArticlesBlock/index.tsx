@@ -32,6 +32,7 @@ const ArticlesBlock = ({ title, t, id }: ArticlesBlockProps) => {
               title="Globe Study"
               subtitle="Crazy findings about globe(s)"
               image="Image of Globe"
+              url_title="globe_study"
             />
           </Col>
           <Col span={8}>Hello</Col>
