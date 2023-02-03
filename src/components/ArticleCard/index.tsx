@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { withTranslation } from "react-i18next";
 
 interface ArticleCardProps {
@@ -8,9 +9,9 @@ interface ArticleCardProps {
 
 const ArticleCard = ({ title, subtitle, image }: ArticleCardProps) => {
   return (
-    <div>
-      <img src="../public/img/article_thumbnails/globe.jpeg"></img>
-    </div>
+    <Link to="/article">
+      {title}
+    </Link>
   );
 };
 
