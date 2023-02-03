@@ -7,9 +7,10 @@ import ArticleCard from "../ArticleCard";
 interface ArticlesBlockProps {
   title: string;
   t: any;
+  id: string;
 }
 
-const ArticlesBlock = ({ title, t }: ArticlesBlockProps) => {
+const ArticlesBlock = ({ title, t, id }: ArticlesBlockProps) => {
   return (
     <MiddleBlockSection>
       <Slide direction="up">
@@ -25,7 +26,7 @@ const ArticlesBlock = ({ title, t }: ArticlesBlockProps) => {
           <div>Column 2</div>
           <div>Column 3</div>
         </div> */}
-        <Row gutter={[24, 16]}>
+        <Row gutter={[24, 16]} id={id}>
           <Col span={8}>
             <ArticleCard
               title="Globe Study"

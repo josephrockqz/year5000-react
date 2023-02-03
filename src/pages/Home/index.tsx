@@ -37,6 +37,7 @@ const Home = () => {
       />
       <ArticlesBlock
         title={ArticlesContent.title}
+        id="articles"
       />
     </Container>
   );
