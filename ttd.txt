@@ -1,7 +1,8 @@
-Modify MiddleBlock so that it shows a "RecyclerView" of articles
-    - each article card should be clickable, have an image, title, subtitle
+---- After more work with D3 and webstie architecture has been done ----
 Render Header conditionally so it's different when not on landing page to avoid errors
     - Display logo in top right instead of tabs
 
----- After more work with D3 and webstie architecture has been done ----
+Make ArticlesCard design better
+    - Dynamic to react to different screen sizes
+
 Change Intro section to be an ArticleHighlight section
