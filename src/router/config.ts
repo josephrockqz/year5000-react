@@ -5,9 +5,9 @@ const routes = [
     component: "Home",
   },
   {
-    path: ["/article"],
+    path: ["/article/football_is_life"],
     exact: true,
-    component: "Article",
+    component: "ArticleFootballIsLife",
   }
 ];
 
