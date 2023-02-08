@@ -3,7 +3,7 @@ import * as d3 from "d3";
 // bubbleChart creation function; instantiate new bubble chart given a DOM element to display it in and a dataset to visualise
 function bubbleChart() {
     const width = 940;
-    const height = 500;
+    const height = 800;
   
     // location to centre the bubbles
     const centre = { x: width/2, y: height/2 };
@@ -35,8 +35,8 @@ function bubbleChart() {
   
     // set up colour scale
     const fillColour = d3.scaleOrdinal()
-        .domain(["1", "2", "3", "5", "99"])
-        .range(["#0074D9", "#7FDBFF", "#39CCCC", "#3D9970", "#AAAAAA"]);
+        .domain(["1", "2", "3", "4", "5", "6", "7", "8"])
+        .range(["#ff6961", "#ffb480", "#f8f38d", "#42d6a4", "#08cad1", "#59adf6", "#9d94ff", "#c780e8"]);
   
     // data manipulation function takes raw data from csv and converts it into an array of node objects
     // each node will store data and visualisation values to draw a bubble
@@ -86,7 +86,7 @@ function bubbleChart() {
             .append('circle')
             .classed('bubble', true)
             .attr('r', d => d.radius)
-            .attr('fill', d => fillColour(d.groupid))
+            .attr('fill', d => fillColour(d.divisionId))
     
         // labels
         labels = elements

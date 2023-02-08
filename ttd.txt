@@ -1,3 +1,6 @@
+Superbowl article:
+    Analysis on best divisions based on cumulative length of time in league
+
 ---- After more work with D3 and webstie architecture has been done ----
 Render Header conditionally so it's different when not on landing page to avoid errors
     - Display logo in top right instead of tabs
